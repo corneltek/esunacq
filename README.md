@@ -6,7 +6,7 @@ Payment Library for ESUN ACQ
 [![Total Downloads](https://poser.pugx.org/corneltek/esunacq/downloads)](https://packagist.org/packages/corneltek/esunacq)
 
 This payment library isn't tight coupled to the frameworks, models or db
-connections, you can use this library to build up the forms, verify the
+connections, you can use this library to build up the forms or verify the
 response separately.
 
 Installation
