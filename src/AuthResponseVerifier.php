@@ -31,18 +31,8 @@ SPEC
 剩餘點數     BB 9(8) C 有值才回覆
 折抵金額     BRA 9(8) C 有值才回覆
 */
-class AuthResponseVerifier
+class AuthResponseVerifier extends AuthBase
 {
-    protected $key;
-
-    protected $config;
-
-    public function __construct($key, array $config)
-    {
-        $this->key = $key;
-        $this->config = $config;
-    }
-
     public function verify(array $params)
     {
         $requiredKeys = explode(' ', 'RC MID ONO');

@@ -12,18 +12,8 @@ use Exception;
 簽帳單序號     RRN   X(12)   C
 授權碼         AIR   X(6)    C
 */
-class AuthCancelResponseVerifier
+class AuthCancelResponseVerifier extends AuthBase
 {
-    protected $key;
-
-    protected $config;
-
-    public function __construct($key, array $config)
-    {
-        $this->key = $key;
-        $this->config = $config;
-    }
-
     public function verify($responseBody)
     {
         $params = [];
