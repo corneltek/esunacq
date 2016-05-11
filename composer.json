@@ -1,0 +1,21 @@
+{
+    "name": "corneltek/esunacq",
+    "description": "EsunBank ACQ Payment API",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.4.0",
+        "corneltek/curlkit": "^1.0"
+    },
+    "authors": [
+        { "name": "c9s", "email": "yoanlin93@gmail.com" }
+    ],
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "EsunBank\\ACQ\\": ""
+        }
+    },
+    "extra": { "branch-alias": { "dev-master": "1.0.x-dev" } }
+}
