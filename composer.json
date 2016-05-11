@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EsunBank\\ACQ\\": ""
+            "EsunBank\\ACQ\\": "src/"
         }
     },
     "extra": { "branch-alias": { "dev-master": "1.0.x-dev" } }
